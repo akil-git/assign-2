@@ -256,7 +256,31 @@ top: 6438px;
 background-color: #1313180D;
 margin-top: 150px;
 
+
 }
+.social{
+    margin-top: 249px;
+    margin-left: 45%;
+}
+.foot-ruler{
+    width: 872px;
+top: 6761px;
+left: 284px;
+border: 1px solid #1313181A;
+
+color:#1313181A ;
+
+}
+.right{
+   
+font-size: 16px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
 
    
 
