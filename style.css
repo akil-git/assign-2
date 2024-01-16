@@ -61,6 +61,7 @@ nav>ul>:first-child{
 }
 .banner-content{
     text-align: center;
+    margin-top: 30px;
   
 }
 .down{
@@ -74,9 +75,15 @@ nav>ul>:first-child{
 }
 button{
     color: #fff;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 16px;
     background: #FF5400;
+   width: 174px;
+   height: 52px;
+   top: 1244px;
+   left: 135px;
+   border-radius: 8px;
+   border: none;
 }
 .banner{
   background-image: linear-gradient(rgba(19, 19, 24, 1), rgba(19, 19, 24, 0)), url(Images/Group\ 13\ \(1\)\ \(1\).png) ;
@@ -103,6 +110,159 @@ color: #fff;
 
 
 }
+.popular-des{
+    color: #131318B2;
+}
+ h2{
+    color: #131318;
+    font-size: 3rem;
+ 
+
+
+}
+.popular{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    gap: 180px;
+}
+.popular-content{
+    padding: 24px;
+    margin-left: 130px;
+    
+
+}
+.your-destination  {
+    text-align: center;
+}
+.row{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+.row img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.chobi{
+   width: 1170px;
+   margin: 0 auto;
+}
+.horizontal-collage{
+    margin-bottom: 20px;
+    gap: 24px;
+}
+.hotel-1{
+    width: 573px;
+height: 284px;
+top: 2778px;
+left: 135px;
+border-radius: 16px;
+ border: 1px solid #FBB56333 ;
+background-color: #FBB56333;
+
+}
+.hotel-2{
+    width: 573px;
+height: 284px;
+top: 2778px;
+left: 732px;
+border-radius: 16px;
+border: 1px solid #29CEF633;
+background-color: #29CEF633;
+
+}
+.hotel-row{
+    display: flex;
+    gap: 25px;
+   justify-content: center;
+   text-align: center;
+}
+.hotel-3{
+    width: 573px;
+height: 284px;
+top: 3086px;
+left: 433px;
+border-radius: 16px;
+border: 1px solid #E9444433;
+background-color: #E9444433;
+
+
+
+}
+.hotel-row-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.newsletter{
+    width: 474px;
+height: 422px;
+top: 5916px;
+left: 135px;
+border-radius: 16px;
+border: 1px solid #FF5400;
+margin-left: 40px;
+
+
+
+}
+.ruler{
+    width: 393px;
+top: 6078px;
+left: 175px;
+border: 1px solid #1313181A;
+color: #1313181A;
+margin-bottom: 20px;
+
+}
+.name{
+    width: 393px;
+height: 52px;
+top: 6102px;
+left: 175px;
+border-radius: 8px;
+margin-bottom: 20px;
+margin-left: 40px;
+
+}
+.mail{
+    width: 393px;
+height: 52px;
+top: 6170px;
+left: 175px;
+border-radius: 8px;
+margin-bottom: 20px;
+margin-left: 40px;
+
+}
+.sub{
+    margin-left: 150px;
+}
+.news{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 100px;
+}
+footer{
+    width: 100%;
+height: 502px;
+top: 6438px;
+background-color: #1313180D;
+margin-top: 150px;
+
+}
+
+   
+
+
+
+
 
 
     
