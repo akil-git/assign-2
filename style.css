@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+ .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+    
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style-type: none;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+nav li a {
+    text-decoration: none;
+    color: #424247;
+}
+.travel{
+    color: #FF5400;
+}
+h3{
+    font-weight: 700;
+    font-size: 35px;
+}
+nav>ul>:first-child{
+    font-weight: 700;
+    color: #FF5400;
+    font-size: 18px;
+    
+}
+.banner-title{
+    font-weight: 800;
+    color: #fff;
+    font-size: 64px;
+    padding: 106px;
+}
+.drop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+    border-radius: 8px;
+    
+    
+}
+.banner-content{
+    text-align: center;
+  
+}
+.down{
+    width: 174px;
+    font-weight: 700;
+   
+    
+    
+   
+
+}
+button{
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    background: #FF5400;
+}
+.banner{
+  background-image: linear-gradient(rgba(19, 19, 24, 1), rgba(19, 19, 24, 0)), url(Images/Group\ 13\ \(1\)\ \(1\).png) ;
+   background-size: cover;
+   width: 1170px;
+   height: 500px;
+   align-items: center;
+   border-radius: 16px;
+   left: 135px;
+   margin-left: 400px;
+   
+    
+}
+.banner img{
+    max-width: 100%;
+}
+.banner-des{
+    
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+padding: 5px;
+color: #fff;
+
+
+}
+
+
+    
+
+
+
