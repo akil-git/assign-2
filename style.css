@@ -67,6 +67,7 @@ nav>ul>:first-child{
 .down{
     width: 174px;
     font-weight: 700;
+    
    
     
     
@@ -94,12 +95,12 @@ button{
    border-radius: 16px;
    left: 135px;
    margin-left: 400px;
+
    
     
 }
-.banner img{
-    max-width: 100%;
-}
+
+
 .banner-des{
     
 font-size: 16px;
@@ -107,6 +108,7 @@ font-weight: 400;
 text-align: center;
 padding: 5px;
 color: #fff;
+margin-top: -100px;
 
 
 }
@@ -162,6 +164,7 @@ left: 135px;
 border-radius: 16px;
  border: 1px solid #FBB56333 ;
 background-color: #FBB56333;
+padding: 20px;
 
 }
 .hotel-2{
@@ -172,13 +175,14 @@ left: 732px;
 border-radius: 16px;
 border: 1px solid #29CEF633;
 background-color: #29CEF633;
+padding: 20px;
 
 }
 .hotel-row{
     display: flex;
     gap: 25px;
    justify-content: center;
-   text-align: center;
+   text-align: start;
 }
 .hotel-3{
     width: 573px;
@@ -188,6 +192,8 @@ left: 433px;
 border-radius: 16px;
 border: 1px solid #E9444433;
 background-color: #E9444433;
+padding: 20px;
+text-align: start;
 
 
 
@@ -259,7 +265,7 @@ margin-top: 150px;
 
 }
 .social{
-    margin-top: 249px;
+    margin-top: 50px;
     margin-left: 45%;
 }
 .foot-ruler{
@@ -279,6 +285,64 @@ line-height: 19px;
 letter-spacing: 0em;
 text-align: center;
 
+}
+.img-div{
+    display: flex;
+    gap: 15px;
+    padding-top: 100px;
+    justify-content: center;
+}
+.footer-title{
+    color: var(--Dark-01, #131318);
+}
+.footer-des{
+    color: #5A5A5D;
+    font-size: 16px;
+padding-top: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 30%;
+    margin-top: 150px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .logo{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav>ul{
+        flex-direction: column;
+    }
+    .drop{
+        flex-direction: column;
+    }
+    .banner{
+        max-width: 100%;
+        height: auto;
+    }
+    .popular{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .hotel-row{
+        flex-direction: column;
+    }
+    .news{
+        flex-direction: column;
+    }
+    .hotel-row-2{
+        flex-direction: column;
+    }
+    footer{
+        text-align: center;
+    }
+   
+   
 }
 
 
